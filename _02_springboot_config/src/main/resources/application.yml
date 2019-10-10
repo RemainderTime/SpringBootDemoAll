@@ -1,0 +1,12 @@
+my:
+  name: xf  #01 基本字段
+  age: 21
+  sex: ${random.value}  #02   将配置文件的属性赋给实体类
+  max: ${random.int}
+  min: ${random.int}
+  uuid: ${random.uuidn}
+
+#04 多个生产环境下可以改变使用的配置文件
+spring:
+  profiles:
+    active: dev
