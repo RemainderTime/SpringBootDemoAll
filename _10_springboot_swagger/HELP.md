@@ -15,6 +15,7 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
 ### SpringBoot整合Swagger
+
 要点：
 * 依赖，配置类方法及注解@Configuration,@EnableSwagger2
 * controller层Swagger相关注解的使用和意义
