@@ -17,5 +17,10 @@ The following guides illustrate how to use some features concretely:
 * [Accessing Relational Data using JDBC with Spring](https://spring.io/guides/gs/relational-data-access/)
 * [Managing Transactions](https://spring.io/guides/gs/managing-transactions/)
 
-### SpringBoot整合jdbc操作数据库
- **注:主要查看引入的依赖 , 以及dao实现类中调用jdbc对象方法的具体实现步骤,service实现类和controller类的具体操作省略未实现**
+### SpringBoot整合jdbc
+
+要点：
+* 主要查看引入的依赖 , 以及dao实现类中调用jdbc对象方法的具体实现步骤
+---
+注：
+* service实现类和controller类的具体操作省略未实现
