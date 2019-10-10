@@ -18,10 +18,11 @@ The following guides illustrate how to use some features concretely:
 
 ### SpringBoot整合BeatlSql
 
-**注：着重查看依赖 配置  controller层中的内置方法的调用操作  已省略service 实际操作中必须写service层 该技术springboot没有内置，需要自己手动注入各种bean类 该技术在实际开发中不常用**
-
+要点：
+* 着重查看依赖 配置 controller层中的内置方法的调用操作  
+* 已省略service 实际操作中必须写service层 该技术springboot没有内置需要自己手动注入各种bean类 
 ---
-sql文件项目03中的resources文件夹下获取
-
----
-**该项目中部分对象找不到已注解**
+注：
+* 该技术在实际开发中不常用
+* sql文件项目03中的resources文件夹下获取
+* 该项目中部分对象找不到已注解
