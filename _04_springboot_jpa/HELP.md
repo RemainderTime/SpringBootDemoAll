@@ -17,10 +17,11 @@ The following guides illustrate how to use some features concretely:
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
 
-### SpringBoot 整合JPA
+### SpringBoot整合JPA
 
-要点:
+要点：
 * 着重查看依赖 配置文件配置 controller中jpa内部方法的调用操作
 * dao层方法的命名根据jpa的命名规则
 ---
-**注:本地需要先安装mysql数据库**
+注：
+* 本地需要先安装mysql数据库
