@@ -14,14 +14,16 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
-## Spring Boot配置文件详解
+## SpringBoot配置文件详解
 
-### 01.基本配置文件的使用
+要点：
+* 01.基本配置文件的使用
 
-### 02.将配置文件的属性赋给实体类
+* 02.将配置文件的属性赋给实体类
 
-### 03.自定义配置文件
+* 03.自定义配置文件
 
-### 04.多环境下配置文件的使用
+* 04.多环境下配置文件的使用
+---
 
 **注：上述四点使用到的代码，所属的部分内容使用了编号 01 02 03 04 进行标识  方便查看**
