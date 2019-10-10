@@ -14,7 +14,7 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
-### SpringBoot使用定时任务
+### SpringBoot使用注解操作定时任务
 
 要点：
 * 在启动类上加上注解@EnableScheduling
