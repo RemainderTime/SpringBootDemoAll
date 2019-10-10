@@ -24,3 +24,4 @@ The following guides illustrate how to use some features concretely:
 ---
 注：
 * service实现类和controller类的具体操作省略未实现
+* 本地需要先安装mysql数据库
