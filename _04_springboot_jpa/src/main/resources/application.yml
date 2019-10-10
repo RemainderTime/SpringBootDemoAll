@@ -7,6 +7,6 @@ spring:
 
 jpa:
   hibernate:
-    ddl-auto: update  # 第一次简表create  后面用update
+    ddl-auto: update  # 第一次简表create 后面用update
     show-sql: true
 
