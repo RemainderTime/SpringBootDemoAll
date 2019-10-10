@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author : remaindertime (xiongfeng)
  * @date : 10:22 2019/10/10
- * @description :CustomerRepository接口
+ * @description :CustomerRepository接口 继承MongoRepository
  */
 @Repository
 public interface CustomerRepository extends MongoRepository<Customer,String> {
