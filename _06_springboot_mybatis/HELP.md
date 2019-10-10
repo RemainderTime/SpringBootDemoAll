@@ -19,5 +19,8 @@ The following guides illustrate how to use some features concretely:
 
 ### SpringBoot整合MyBatis(注解)
 
+要点：
+* 着重查看依赖 数据库连接配置 dao层的注解操作数据库
 ---
-**注:着重查看依赖 数据库连接配置  dao层的注解操作数据库**
+注：
+* 需要先安装mysql数据库
