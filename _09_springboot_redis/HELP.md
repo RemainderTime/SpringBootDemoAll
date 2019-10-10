@@ -17,9 +17,11 @@ The following guides illustrate how to use some features concretely:
 * [Messaging with Redis](https://spring.io/guides/gs/messaging-redis/)
 
 ### SpringBoot整合Redis
+
 要点：
-*   依赖，配置文件
-*   dao层内置方法的调用和相关功能的设置，如设置过期时间等
-*   测试类测试方法使用
+* 依赖，配置文件
+* dao层内置方法的调用和相关功能的设置，如设置过期时间等
+* 测试类测试方法使用
 ---
-**注:需要安装redis数据库在本地或者远程服务上**
+注：
+* 需要安装redis数据库在本地或者远程服务上
