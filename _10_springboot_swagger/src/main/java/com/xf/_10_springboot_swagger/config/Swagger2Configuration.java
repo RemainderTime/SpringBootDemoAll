@@ -24,7 +24,7 @@ public class Swagger2Configuration {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())//基本配置
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.xf.controller")) //apis()指定扫描的包会生成文档
+                .apis(RequestHandlerSelectors.basePackage("com.xf._10_springboot_swagger.controller")) //apis()指定扫描的包会生成文档
                 .paths(PathSelectors.any())
                 .build();
     }
