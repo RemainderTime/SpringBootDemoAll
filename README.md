@@ -6,7 +6,7 @@
 要点：
 * @LocalServerPort 表示获取当前启动的项目端口号，一般订阅一个字段接收它
 
-### 02 SpringBoot配置文件详解
+### 02, SpringBoot配置文件详解
 ---
 要点：
 * 01.基本配置文件的使用
@@ -20,7 +20,7 @@
 注：
 * 上述四点使用到的代码，所属的部分内容使用了编号 01 02 03 04 进行标识  方便查看
 
-### 03 SpringBoot整合jdbc
+### 03, SpringBoot整合jdbc
 ---
 要点：
 * 主要查看引入的依赖 , 以及dao实现类中调用jdbc对象方法的具体实现步骤
@@ -29,7 +29,7 @@
 * service实现类和controller类的具体操作省略未实现
 * 本地需要先安装mysql数据库
 
-### 04 SpringBoot整合JPA
+### 04, SpringBoot整合JPA
 ---
 要点：
 * 着重查看依赖 配置文件配置 controller中jpa内部方法的调用操作
@@ -38,7 +38,7 @@
 注：
 * 本地需要先安装mysql数据库
 
-### 05 SpringBoot整合BeatlSql
+### 05, SpringBoot整合BeatlSql
 ---
 要点：
 * 着重查看依赖 配置 controller层中的内置方法的调用操作  
@@ -49,7 +49,7 @@
 * sql文件项目03中的resources文件夹下获取
 * 该项目中部分对象找不到已注解
 
-### 06 SpringBoot整合MyBatis(注解)
+### 06, SpringBoot整合MyBatis(注解)
 ---
 要点：
 * 着重查看依赖 数据库连接配置 dao层的注解操作数据库
@@ -57,14 +57,14 @@
 注：
 * 需要先安装mysql数据库
 
-### 07 SpringBoot整合声明式事务 mybatis(xml)
+### 07, SpringBoot整合声明式事务 mybatis(xml)
 ---
 要点：
 * SpringBoot中使用声明式事务实际只需使用一个注解@Transactional在操作的方法上就可以了  
 * 这里使用的orm框架为mybatis并使用xml方式操作数据库 
 * 了解配置文件 mapper.xml文件与实体类,dao类的对应关系
 
-### 08 SpringBoot整合MongoDB
+### 08, SpringBoot整合MongoDB
 ---
 要点：
 * 依赖，配置文件，dao层的继承方式
@@ -74,7 +74,7 @@
 注：
 * 在本地需要安装MongoDB数据库
 
-### 09 SpringBoot整合Redis
+### 09, SpringBoot整合Redis
 ---
 要点：
 * 依赖，配置文件
@@ -84,7 +84,7 @@
 注：
 * 需要安装redis数据库在本地或者远程服务上
 
-### 10 SpringBoot整合Swagger
+### 10, SpringBoot整合Swagger
 ---
 要点：
 * 依赖，配置类方法及注解@Configuration,@EnableSwagger2
@@ -94,7 +94,7 @@
 * 项目启动访问地址： http://localhost:8080/swagger-ui.html
 * 官方文档：http://swagger.io/docs/specification/api-host-and-base-path/
 
-### 11 SpringBoot整合Cache
+### 11, SpringBoot整合Cache
 ---
 要点：
 * 依赖的引入 
@@ -104,7 +104,7 @@
 注：
 * 这里没有连接数据库，只是模拟了操作数据库的延迟 相关类BookRepositoryImpl.class
 
-### 12 SpringBoot整合RabbitMQ
+### 12, SpringBoot整合RabbitMQ
 ---
 要点：
 * 依赖导入
@@ -115,7 +115,7 @@
 注：
 * 本地或者远程服务器需要安装rabbitmq消息中间件并启动服务
 
-### 13 SpringBoot使用注解操作定时任务
+### 13, SpringBoot使用注解操作定时任务
 ---
 要点：
 * 在启动类上加上注解@EnableScheduling
@@ -128,7 +128,7 @@
 * @Scheduled(initialDelay=1000, fixedRate=5000) ：第一次延迟1秒后执行，之后按fixedRate的规则每5秒执行一次
 * @Scheduled(cron=" /5 ") ：通过cron表达式定义规则
 
-### 14 SpringBoot校验表单信息（thymeleaf）
+### 14, SpringBoot校验表单信息（thymeleaf）
 ---
 要点：
 * 依赖的引入
@@ -138,7 +138,7 @@
 注：
 * 前端使用thymeleaf前端模板框架，需要熟练使用其标签语法
 
-### 15 SpringBoot处理表单提交（thymeleaf）
+### 15, SpringBoot处理表单提交（thymeleaf）
 ---
 要点：
 * 依赖引入
