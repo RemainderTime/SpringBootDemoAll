@@ -17,6 +17,7 @@ The following guides illustrate how to use some features concretely:
 * [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
 
 ### SpringBoot校验表单信息（thymeleaf）
+
 要点：
 * 依赖的引入
 * 对实体类字段添加注解进行校验，了解内置的校验注解
